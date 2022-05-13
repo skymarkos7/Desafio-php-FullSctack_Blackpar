@@ -24,7 +24,7 @@
             	Deixe sua opinião:
             </div>
         	<div><label for="nome">Nome*:</label>	 <input type="text" name="nome" id="nome" class="nome" value=""/></div>
-            <div><label for="opiniao">Opinião*:</label>	 <textarea type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
+            <div><label for="opiniao">Opinião*:</label>	 <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
             
             <div class="txalc">
             	 <input type="button" name="enviar" class="enviar" id="enviar" festaId="1" value="Enviar"/>
@@ -45,7 +45,7 @@
             	Deixe sua opinião:
             </div>
         	<div><label for="nome">Nome*:</label>	 <input type="text" name="nome" id="nome" class="nome" value=""/></div>
-            <div><label for="opiniao">Opinião*:</label>	 <textarea type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
+            <div><label for="opiniao">Opinião*:</label>	 <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
             
             <div class="txalc">
             	 <input type="button" name="enviar" class="enviar" id="enviar" festaId="2" value="Enviar"/>
@@ -68,7 +68,7 @@
             	Deixe sua opinião:
             </div>
         	<div><label for="nome">Nome*:</label>	 <input type="text" name="nome" id="nome" class="nome" value=""/></div>
-            <div><label for="opiniao">Opinião*:</label>	 <textarea type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
+            <div><label for="opiniao">Opinião*:</label>	 <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
             
             <div class="txalc">
             	 <input type="button" name="enviar" class="enviar" id="enviar" festaId="3" value="Enviar"/>
