@@ -9,6 +9,10 @@
 <title>Onfiak DEV 1</title>
 </head>
 <body>
+
+<input type="text" class="form-control" id="hora" name="hora"  />
+<input type="number" class="form-control" id="hora" name="hora"  />
+
 		<form id="formularioenvio">
 		<div class="form-row bd-example" id="capacityform">
         	<div class="text-center">
@@ -39,11 +43,11 @@
             </div>
             
             <div class="form-group col-md-6">
-            <input type="submit" class="btn btn-primary" name="enviar" onclick="endTime()"] value="Enviar"/>
+            <input type="submit" class="btn btn-primary" name="enviar"  value="Enviar"/>
             </div>
 
             <div class="form-group col-md-6">
-            <input type="reset" class="btn btn-primary" name="cancelar" value="Cancelar"/> 
+            <input type="reset" class="btn btn-primary" name="cancelar" onclick="endTime()" value="Cancelar"/> 
             </div>
         </div>
         </form>
