@@ -11,6 +11,8 @@ O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 ## Processo
 1- Subi os arquivos no github  
 2- Criei uma nova branch para desenvolvimento
+3- Emergindo as branch's sempre que necessário
+4- Todas as modificaçaões feitas na branch de desenvolvimento
 
 
 ## Autor
