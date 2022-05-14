@@ -1,5 +1,4 @@
 ## Oque é 
-
 Isto é um teste proposto para servir como demostrativo de habilidades para que seja possível analisar a capacidade de resolver problemas com as tecnologias indicadas.
 
 ## Detalhes
@@ -7,8 +6,12 @@ Isto é um teste proposto para servir como demostrativo de habilidades para que 
 
 
 ## Tempo
-
 O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf) é dividido em 4 tarefas, aos quais foi definito data de entrega pelo próprio desafiado que concorre a vaga de DEV junior. Ficou definido um desafio por fim de semana (tempo que o desafiado tem a disposição) totalizando 4 semanas e finalizando no dia 06/06/2022
+
+## Processo
+1- Subi os arquivos no github  
+2- Criei uma nova branch para desenvolvimento
+
 
 ## Autor
 Nome: [Marcos Lourenço](https://www.linkedin.com/in/skymarkos7/)    
