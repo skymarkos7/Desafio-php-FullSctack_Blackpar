@@ -5,10 +5,21 @@ function startTime(){
 
 }
 
-   
-
   function endTime(){
      
     var tempo = "O formulário levou " + contador + " segundos para ser preenchido";
      document.getElementById("hora").value =  tempo;
   }
+
+
+
+
+  
+
+
+
+
+
+
+
+

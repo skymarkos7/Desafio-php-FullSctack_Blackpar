@@ -11,7 +11,6 @@
 <body>
 
 <input type="text" class="form-control" id="hora" name="hora"  />
-<input type="number" class="form-control" id="hora" name="hora"  />
 
 		<form id="formularioenvio">
 		<div class="form-row bd-example" id="capacityform">
@@ -20,17 +19,17 @@
             </div>
         	<div class="form-group col-md-10">
                 <label for="nome">Nome*:</label>	 
-                <input type="text" class="form-control" name="nome" onclick="startTime()"  />
+                <input type="text" required class="form-control" name="nome" onclick="startTime()"  />
             </div>
 
             <div class="form-group col-md-2">
                 <label for="idade">Idade*:</label> 	 
-                <input type="number" class="form-control" name="idade"  />
+                <input type="number" required class="form-control" name="idade"  />
             </div>
 
             <div class="form-group col-md-8">
                 <label for="email">Email*:</label> 	 
-                <input type="email" class="form-control" name="email"  />
+                <input type="email" required class="form-control" name="email"  />
             </div>
 
             <div class="form-group col-md-4">
@@ -39,15 +38,15 @@
             </div>
 
             <div class="form-group col-md-12">
-                <div id="mensagem" class="alert alert-danger" role="alert"></div>
+                <div id="mensagem" required class="alert alert-danger" role="alert"></div>
             </div>
             
             <div class="form-group col-md-6">
-            <input type="submit" class="btn btn-primary" name="enviar"  value="Enviar"/>
+            <input type="submit" onclick="endTime()" class="btn btn-primary" name="enviar"  value="Enviar"/>
             </div>
 
             <div class="form-group col-md-6">
-            <input type="reset" class="btn btn-primary" name="cancelar" onclick="endTime()" value="Cancelar"/> 
+            <input type="reset" class="btn btn-primary" name="cancelar" value="Cancelar"/> 
             </div>
         </div>
         </form>
