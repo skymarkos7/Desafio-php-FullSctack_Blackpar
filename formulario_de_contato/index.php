@@ -17,7 +17,7 @@
 
         
 
-        <form action="https://formspree.io/f/xoqrykay" method="POST" id="formularioenvio">
+        <form id="formularioenvio">
             <div class="form-row bd-example" id="capacityform">
                 <div class="text-center">
                     Preencha os dados abaixo para enviar o cadastro.<br /><br />
@@ -50,11 +50,11 @@
                 </div>
 
                 <div class="form-group col-md-12">
-                    <div id="mensagem" class="alert " role="alert alert-success"></div>
+                    <div id="mensagem" class="alert alert-danger" role="alert alert-success">preencha todos os campos</div>
                 </div>
 
                 <div class="form-group col-md-6">
-                    <input type="submit" onclick="endTime()" class="btn btn-primary" id="submit" name="enviar" value="Enviar" />
+                    <input type="submit "onclick="endTime()"  class="btn btn-primary" id="submit" name="enviar" value="Enviar" />
                 </div>
 
                 <div class="form-group col-md-6">

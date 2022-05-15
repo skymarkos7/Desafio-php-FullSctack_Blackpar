@@ -340,7 +340,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Username = '';
+    public $Username = 'root'; //estava vazio
 
     /**
      * SMTP password.

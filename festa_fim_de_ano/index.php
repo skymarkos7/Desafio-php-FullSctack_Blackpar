@@ -3,11 +3,12 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script1.js"></script>
     <link rel="stylesheet" href="css/style.css">
 <title>Permutando DEV 1</title>
 </head>
 <body>
+
 		
         		<div class="divMasterClass">
         	<div class="mrgB">

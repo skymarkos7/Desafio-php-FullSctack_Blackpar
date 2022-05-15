@@ -1,3 +1,5 @@
+
+
 var contador = 0; // tornando a variavel GOBAL para ser acessivel fora da função
 
 function startTime(){ 
@@ -7,47 +9,34 @@ function startTime(){
 
   function endTime(){
      
-    var tempo = "O formulário levou " + contador + " segundos para ser preenchido";
+    var tempo = `O formulário levou  ${contador}  segundos para ser preenchido`; /// chamado de template string
      document.getElementById("hora").value =  tempo;
 
 
   }
 
 
+$(document).ready(function(){// aguardar documento ser carregado
+  $("#submit").click(function(event){// executar evento click no botão com id submit
+    event.preventDefault();// previnir evento padrão do botão 
+    var data = new FormData($("#formularioenvio")[0]); //capturar dados dos inputs do formulário 
+    $.ajax({
+      url: "https://formspree.io/f/xoqrykay", // ação do chamda do formulário
+      data: data, // dados capturados do formulário
+      type: 'post', // tipo de envio dos dados  - post, get, 
+      processData: false,
+      cache: false,
+      contentType: false,
+      headers: { /// tipo de dados no request 
+        'Accept': 'application/json'
+    },
+      success: function( data ) { // caso seja sucesso 
+          alert('email enviado com sucesso!');
+      },
+      error: function (request, status, error) { // em caso de erros 
+          alert(request.responseText);
+      }
 
-
-
-
-
-// ----------  jQUERY DO FORMSPREE para o envio de email ---------------------------
-    var form = document.getElementById("formularioenvio");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Email enviado com sucesso!";
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! Existe algum problema"
-            }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! Ocorreu um erro na submissão"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-
+    });
+  });
+});
