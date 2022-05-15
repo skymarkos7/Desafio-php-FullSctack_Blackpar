@@ -13,11 +13,67 @@ function startTime(){
      document.getElementById("hora").value =  tempo;
 
 
+
+
+
   }
 
 
 $(document).ready(function(){// aguardar documento ser carregado
   $("#submit").click(function(event){// executar evento click no botão com id submit
+
+
+
+
+
+
+
+
+
+
+
+    if(document.dados.nome.value=="" ||
+    document.dados.nome.value.length < 3)
+    {
+    alert( "Preencha campo NOME corretamente!" );
+    document.dados.nome.focus();
+    callback();
+    return false;
+    
+    }
+    
+
+    if(document.dados.idade.value=="" ||
+    document.dados.idade.value.length < 1)
+    {
+    alert( "Preencha campo IDADE corretamente!" );
+    document.dados.idade.focus();
+    callback();
+    return false;
+    
+    }
+    
+
+    if( document.dados.email.value=="" ||
+    document.dados.email.value.indexOf('@')==-1 ||
+    document.dados.email.value.indexOf('.')==-1 )
+    {
+    alert( "Preencha campo E-MAIL corretamente!" );
+    document.dados.tx_email.focus();
+    callback();
+  
+    return false;
+    }
+
+    
+
+
+
+
+
+
+
+
     event.preventDefault();// previnir evento padrão do botão 
     var data = new FormData($("#formularioenvio")[0]); //capturar dados dos inputs do formulário 
     $.ajax({

@@ -17,7 +17,7 @@
 
         
 
-        <form id="formularioenvio">
+        <form id="formularioenvio" name="dados">
             <div class="form-row bd-example" id="capacityform">
                 <div class="text-center">
                     Preencha os dados abaixo para enviar o cadastro.<br /><br />
@@ -53,12 +53,12 @@
                     <div id="mensagem" class="alert" role="alert"> </div>
                 </div>
 
-                <div class="form-group col-md-6">
-                    <input type="submit "onclick="endTime()"  class="btn btn-primary" id="submit" name="enviar" value="Enviar" />
+                 <div class="form-group col-md-6">
+                <input type="submit "onclick="endTime()"  class="btn btn-primary" id="submit" name="enviar" value="Enviar" /> 
                 </div>
 
                 <div class="form-group col-md-6">
-                  <button>  <input type="reset" class="btn btn-primary" name="cancelar" value="Cancelar" /> </button>
+                    <input type="reset" class="btn btn-primary" name="cancelar" value="Cancelar" /> 
                 </div>
             </div>
         </form>
