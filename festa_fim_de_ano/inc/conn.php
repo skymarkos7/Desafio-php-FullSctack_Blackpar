@@ -3,7 +3,7 @@
 $urlDB = "localhost";  //estava vazio
 $userDB = "root"; //estava vazio
 $passDB = ""; //estava vazio
-$nameFB = "localhost"; //estava vazio
+$nameFB = "festa"; //estava vazio
 
 
 $link =  new  mysqli($urlDB, $userDB, $passDB, $nameFB);	  

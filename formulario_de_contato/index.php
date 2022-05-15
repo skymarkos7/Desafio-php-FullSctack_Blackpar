@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="form-group col-md-12">
-                    <div id="mensagem" class="alert alert-danger" role="alert alert-success">preencha todos os campos</div>
+                    <div id="mensagem" class="alert" role="alert"> </div>
                 </div>
 
                 <div class="form-group col-md-6">
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="form-group col-md-6">
-                    <input type="reset" class="btn btn-primary" name="cancelar" value="Cancelar" />
+                  <button>  <input type="reset" class="btn btn-primary" name="cancelar" value="Cancelar" /> </button>
                 </div>
             </div>
         </form>

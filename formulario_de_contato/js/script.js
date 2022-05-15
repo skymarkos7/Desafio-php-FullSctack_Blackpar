@@ -31,7 +31,8 @@ $(document).ready(function(){// aguardar documento ser carregado
         'Accept': 'application/json'
     },
       success: function( data ) { // caso seja sucesso 
-          alert('email enviado com sucesso!');
+        $("#mensagem").addClass('alert-success');
+        $("#mensagem").append("Os dados foram enviados");      
       },
       error: function (request, status, error) { // em caso de erros 
           alert(request.responseText);
