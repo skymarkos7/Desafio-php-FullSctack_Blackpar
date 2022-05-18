@@ -14,7 +14,7 @@ O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 3- Emergindo as branch's sempre que necessário  
 4- Todas as modificaçaões feitas na branch de desenvolvimento
 
-### 1. Tarefa formulário de contato  
+### 1. Tarefa: formulário de contato  
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 - Foi adicionado REQUERE nos campos HTML para especificar a obrigatoriedade e feito validação também no javaScript para garantir o preenchimento dos campos obrigatórios.
 - Utilizei um serviço externo para o envio do email chamado [
