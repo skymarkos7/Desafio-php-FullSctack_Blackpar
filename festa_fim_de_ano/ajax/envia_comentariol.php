@@ -1,7 +1,7 @@
 <?php
 	include("../inc/conn.php");
 	
-	$sqlInsertOpiniao = "insert into tb_comentarios (autor, comentario, data) values ('".$_REQUEST["autor"]."','".$_REQUEST["opiniao"]."',NOW()) ";
+	$sqlInsertOpiniao = "insert into tb_comentarios (autor, opniao, data) values ('".$_REQUEST["autor"]."','".$_REQUEST["opiniao"]."',NOW()) ";
 	$resInsertOpiniao = mysqli_query($link,$sqlInsertOpiniao);
 	
 	
@@ -11,3 +11,10 @@
 	 
 	
 ?>{"autor":"<?=$fetchListComments["autor"]?>","opiniao":"<?=$fetchListComments["comentario"]?>","data":"<?=$fetchListComments["dataFrm"]?>"}
+
+
+
+
+
+
+

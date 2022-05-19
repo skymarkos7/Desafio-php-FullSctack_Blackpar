@@ -1,6 +1,4 @@
-<?php
-	include("inc/conn.php");
-    ?>
+
   
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,7 +29,7 @@
             </div>
         	<div><label for="autor">Nome*:</label>	 <input type="text" name="autor" id="autor" class="autor" value=""/></div>
             <div><label for="comentario">Opinião*:</label>	 <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
-            <div><?php $resInsertOpiniao["autor"];  ?></div>
+            
             <div class="txalc">
             	 <input type="button" name="enviar" class="enviar" id="enviar" festaId="1" value="Enviar"/>
             </div>
