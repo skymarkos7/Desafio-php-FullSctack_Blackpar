@@ -1,4 +1,4 @@
-
+<?php  	include("inc/conn.php"); ?>
   
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,15 +20,17 @@
             <div class="opns" id="comments_1">
                     <div><b>João Fernando <span class="tx12">(12/09/2017 19:01)</span>:</b> Acho essa festa muito mais animada, voto nessa!</div>
                     <div><b>Mariana Gomes <span class="tx12">(12/09/2017 19:03)</span>:</b> Amo festa anos 80. Me lembra uma época boa da minha vida!</div>	
+                    <?php  	include("ajax/envia_comentario.php"); ?>
                               
             </div>
             
             <form class="formSend" id="formComments">
             <div>
             	Deixe sua opinião:
-            </div>
+            </div>            
         	<div><label for="autor">Nome*:</label>	 <input type="text" name="autor" id="autor" class="autor" value=""/></div>
-            <div><label for="comentario">Opinião*:</label>	 <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
+            <div><label for="opniao">Opinião*:</label>	 <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
+            <div><input style="display:none;" type="text" name="id_festa" id="id_festa" class="id_festa" value="FESTA ANOS 80"/></div>
             
             <div class="txalc">
             	 <input type="button" name="enviar" class="enviar" id="enviar" festaId="1" value="Enviar"/>

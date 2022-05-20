@@ -1,4 +1,4 @@
-<?
+<?php
 
 $urlDB = "localhost";  //estava vazio
 $userDB = "root"; //estava vazio
