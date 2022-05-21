@@ -12,16 +12,31 @@ O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 1- Subi os arquivos no github  
 2- Criei uma nova branch para desenvolvimento  
 3- Emergindo as branch's sempre que necessário  
-4- Todas as novas modificaçaões são feitas na branch de desenvolvimento
+4- Todas as novas modificaçaões são feitas na branch de desenvolvimento.
+5- Descrevi todo o processo de desenvolvimento no arquivo readme.md para melhor acompanhamento
 
 ### 1. Tarefa: formulário de contato  
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
-- Foi adicionado REQUERE nos campos HTML para especificar a obrigatoriedade e feito validação também no javaScript para garantir o preenchimento dos campos obrigatórios.
+- Foi adicionado REQUERE nos campos HTML para especificar a obrigatoriedade e feito validação também no javaScript para garantir o preenchimento dos campos obrigatórios e usando o focus no campo pendente.
 - Utilizei um serviço externo para o envio do email chamado [
 Formspree](https://formspree.io/), com os devidos ajustes foi possível enviar por ajax e sem sair da página um email com as informações solicitadas. Obs: o plano gratuito limita 100 emails por mÊs e gastei 55 durante o desenvolvimento ;)
 - Hospedei uma imagem com o [resultado](https://estoque.lourencoautopecas.com.br/Capturar.PNG), que pode ser conferido [aqui](https://estoque.lourencoautopecas.com.br/Capturar.PNG).
 
-### 2. Tarefa festa de fim de ano  
+### 2. Tarefa: festa de fim de ano  
+- Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
+- Reutilizei o código JavaScript usado para envio do formulário de contato na tarefa anterior, e o fiz gravar os dados no banco.
+- Utilizei o arquivo envia_comentario.php para buscar e listar as opnioes autores e datas já dentro de uma tag HTML para facilitar a formatação.
+- o campo comentário foi limitador a 255 caracteres pelo HTML com o "maxlength" e limitador no banco.
+- utilizei uma variável PHP "$festa" na página index.php para fazer a destinção das opniões.
+- Para facilitar o arquivo SQL está disponível no meu [GOOGE DRIVE](https://drive.google.com/file/d/1UzH60zAq9agShJIl-CfHNvTlcjjhukOT/view?usp=sharing)
+
+### 3. Tarefa: bandeira_ip
+- Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
+- A página do google [gstatic.com](gstatic.com) parece não ser acessível diretamente ou passou por alguma atualização, então busquei alternativas.
+
+### 4. Tarefa: tela do aplicativo
+- Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
+- Tive dificuldade para encontrar um programa que permitisse extrair as imagens e icones de forma fácil, então algumas imagens e icones foram recortadas da imagem psd para serem utilizadas.
 
 
 ## Autor

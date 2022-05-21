@@ -11,8 +11,6 @@
 
 <body>
 
-
-
  
      <div class="divMasterClass">
         <div class="mrgB">
@@ -33,8 +31,7 @@
             <div><label for="autor">Nome*:</label> <input type="text" name="autor" id="autor" class="autor" value="" /></div>
             <div><label for="opniao">Opinião*:</label> <textarea maxlength="255" type="text" name="opiniao" id="opiniao" class="opiniao"></textarea></div>
             <div><input style="display:none;" type="text" name="id_festa" id="id_festa" class="id_festa" value="<?php echo $festa;?>" /></div>
-        
-            <div class="txalc">
+                    <div class="txalc">
                 <input type="submit" name="enviar" class="enviar" id="enviar1" value="Envia" />
             </div>
         </form>

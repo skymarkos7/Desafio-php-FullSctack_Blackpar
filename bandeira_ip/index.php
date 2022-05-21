@@ -28,12 +28,13 @@
             <div>
             	Consulte a cidade deste IP:
             </div>
-        	<div><label for="ip">IP:</label>	 <input type="text" name="ip" id="ip" class="ip padL" value="200.255.2.2"/></div>
+        	<div><label for="ip">IP:</label>	 <input type="text" name="ip" id="ip" class="ip padL" value=""/></div>
              
             <div class="txalc">
-            	 <input type="button" name="consultar" class="consultar" id="consultar" value="Consultar"/>
-            </div>
+            	 <input type="button" name="consultar" class="consultar" id="consultar" value="Consultar"/>                 
+            </div>            
              </form>
+                <div><label for="digitou">resultado:</label>	 <input type="text" value="http://ip-api.com/json/201.49.138.114"/></div>
         </div>
         	 
                  
