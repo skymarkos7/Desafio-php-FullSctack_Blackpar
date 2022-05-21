@@ -2,7 +2,7 @@
 include("inc/conn.php"); 
 
 
-$result_cliente = "SELECT * FROM tb_comentarios WHERE id_festa LIKE '%$festa%' ORDER BY id ASC";
+$result_cliente = "SELECT * FROM tb_comentarios WHERE id_festa = '$festa' ORDER BY id ASC";
 $resultado_cliente = mysqli_query($link, $result_cliente);
 
 ?>

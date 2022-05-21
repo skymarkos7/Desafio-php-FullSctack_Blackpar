@@ -12,7 +12,7 @@ O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 1- Subi os arquivos no github  
 2- Criei uma nova branch para desenvolvimento  
 3- Emergindo as branch's sempre que necessário  
-4- Todas as modificaçaões feitas na branch de desenvolvimento
+4- Todas as novas modificaçaões são feitas na branch de desenvolvimento
 
 ### 1. Tarefa: formulário de contato  
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
