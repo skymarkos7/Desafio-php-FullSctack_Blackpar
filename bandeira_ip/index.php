@@ -17,24 +17,24 @@
                 
             <div class="opns">
                   <div class="txalc">
-                      <b>Rio de Janeiro<span class="tx12">(RJ)</span></b><br />
+                      <b> <span id="region" value=""></span> <span class="tx12" id="nameRegion" value=""></span></b><br />
                       <br />
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8XCiOxmS3j6tXgsDMAi6howPUveZIRGoTxusy3bo1WWUqXnbV4xqH4z77" style="width:30%" />
+                      <img src="" style="width:30%" id="flag" />
                   </div>
 						                 
             </div>
             
             <form class="formSend" id="formComments_1">
-            <div>
-            	Consulte a cidade deste IP:
-            </div>
-        	<div><label for="ip">IP:</label>	 <input type="text" name="ip" id="ip" class="ip padL" value=""/></div>
-             
-            <div class="txalc">
-            	 <input type="button" name="consultar" class="consultar" id="consultar" value="Consultar"/>                 
-            </div>            
+                    <div>
+                        Consulte a cidade deste IP:
+                    </div>
+                    <div><label for="ip">IP:</label>	 <input type="text" name="ip" id="ip" class="ip padL" value=""/></div>
+                    
+                    <div class="txalc">
+                        <input type="button" name="consultar" class="consultar" id="consultar" value="Consultar" onclick="searchData(this.value)"/>                 
+                    </div>            
              </form>
-                <div><label for="digitou">resultado:</label>	 <input type="text" value="http://ip-api.com/json/201.49.138.114"/></div>
+                
         </div>
         	 
                  
