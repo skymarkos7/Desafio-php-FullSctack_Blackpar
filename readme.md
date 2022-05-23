@@ -32,7 +32,8 @@ Formspree](https://formspree.io/), com os devidos ajustes foi possível enviar p
 
 ### 3. Tarefa: bandeira_ip
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
-- A página do google [gstatic.com](gstatic.com) parece não ser acessível diretamente ou passou por alguma atualização, então busquei alternativas.
+- No [Google cloud](https://cloud.google.com/) criei um perfil e ativei o serviço de api mais adequada, li um pouco da documentação e usei minhas chaves de autenticação.
+- A implementação está correta e funcionando embora algumas cidades menores retornem imagem turisticas da cidade e não da bandeira (mesmo passando uma string BANDEIRA ou FLAG antes do nome da cidade). 
 
 ### 4. Tarefa: tela do aplicativo
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).

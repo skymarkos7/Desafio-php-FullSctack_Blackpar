@@ -19,7 +19,7 @@ function searchData(){
             document.querySelector("#nameRegion").innerText = nameRegion;
 
             $.ajax({
-                url: `https://kgsearch.googleapis.com/v1/entities:search?query=${city}&key=AIzaSyATGmUNDSIptFLj5LZ3mTgegvG3O7t45C0&limit=1&indent=True`, // ação do chamda do formulário
+                url: `https://kgsearch.googleapis.com/v1/entities:search?query=${city}&key=AIzaSyATGmUNDSIptFLj5LZ3mTgegvG3O7t45C0&limit=1&indent=True&languages=pt`, // ação do chamda do formulário
                 type: 'get', // tipo de envio dos dados  - post, get, 
                 processData: false,
                 cache: false,
