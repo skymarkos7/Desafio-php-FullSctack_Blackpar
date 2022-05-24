@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    margin: auto;
+    width: 860px;
+    height: 200px;
+    background-color: #5278E3;
+}
+
+.status {
+    height: 50px;
+
+}
+
+.h_horario {
+    margin-top: 15px;
+    float: left;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.h_horario p {
+    color: #fff;
+
+}
+
+.h_bateria {
+    float: left;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.h_bateria img {
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.loc_title {
+    height: 73px;
+
+}
+
+.loc_title p {
+
+    width: 40%;
+    float: left;
+    font-size: 45px;
+    color: #fff;
+    margin-left: 10%;
+}
+
+.loc_title article {
+
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 265px;
+    width: 100px;
+    color: #fff;
+    float: left;
+}
+
+.loc_title img {
+    float: right;
+    width: 15px;
+}
+
+.c_opcoes {
+    margin: -70px auto;
+    width: 860px;
+    height: 300px;
+}
+
+
+.circulos {
+    border-radius: 50%;
+    margin-left: 90px;
+    float: left;
+    height: 160px;
+    width: 20%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+.circulos img {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.circulos p {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.painel {
+
+    margin: auto;
+    width: 840px;
+    height: 350px;
+}
+
+.painel img {
+    border-radius: 15px;
+    width: 700px;
+
+}
+
+.p_texto p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+
+.beneficios, .requisitados{
+    width: 860px;
+    height: 450px;
+   
+    margin: auto;
+    margin-bottom: 50px;
+}
+.consultas{
+    width: 860px;
+    height: 350px;
+   
+    margin: auto;
+    margin-bottom: 50px; 
+}
+.agendamentos{
+    width: 860px;
+    height: 350px;
+   
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.beneficios h4, .requisitados h4 ,.agendamentos h4, .consultas h4{
+   margin-left: 30px;
+   font-size: 17px;
+   float: left;
+   width: 100%;
+   font-weight: normal;
+   color:#223a7a;
+}
+
+.requisitados h5{
+    font-weight: normal;
+    float: right;
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 17px;
+    color:#3b57a5;
+}
+
+.b_qd{
+    float: left;
+    width: 25%;
+    height: 90%;
+    /* background-color: bisque; */
+}
+
+.b_circle{
+    width: 65%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    height: 35%;
+    border-radius: 50%;
+    background-color: #5278E3;
+}
+
+.b_circle p{
+    width: 100%;
+    float: left;
+    text-align: center;   
+    margin-top: 44px;
+    height: 50px;
+}
+
+.b_circle img{
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 50%;
+    float: left;
+    background-color: rgb(228, 105, 105);
+}
+
+
+.p_1{
+    
+    width: 100%;    
+    height: 200pxx;
+    float: left;    
+    
+}
+.p_1 img{    
+    width: 100%;    
+    height: 200px;
+   
+    
+}
+
+.ginecologista{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-left: 20px;
+    float: left;
+    background-color: #fff;
+    width: 30%;
+    height: 200px;
+}
+.ginecologista p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ginecologista aside{    
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.ginecologista h6{
+    font-weight: normal;
+    width: 100px;
+    font-size: 17px;
+    height: 25px;
+    /* background-color: aquamarine; */
+    line-height: 25px;
+    margin-right: 105px;
+    float:right ;
+}
+
+.qd_agendamentos{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    background-color: #5075DD;
+    height: 250px;
+}
+
+.qd_int_ag{
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 70px;
+    margin-left: 30px;
+    background-color: #fff;
+    height: 200px;
+    float: left;
+    width: 28%;
+}
+
+.qd_int_ag aside{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.qd_int_ag article{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.ponto{
+    width: 15px;
+}
+
+.mulher{
+    width: 45px;
+}
+
+.qd_dt{
+    border-radius: 10px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 80%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.qd_dt img{
+
+    float: left;
+    margin-left: 30px;
+    width: 80px;
+}
+
+.qd_dt article{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 60%;
+    float: left;
+}
+.qd_dt p{
+    margin-left: 20px;
+    font-size: 15px;
+    
+    height: 40px;
+    width: 60%;
+    float: left;
+}
+
+.aval{
+    margin-top: -50px;
+    float: left;
+}
