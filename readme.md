@@ -1,12 +1,14 @@
 ## Oque é 
-Isto é um teste proposto para servir como demostrativo de habilidades para que seja possível analisar a capacidade de resolver problemas com as tecnologias indicadas.
+Este é um teste proposto para servir como demostrativo de habilidades para que seja possível analisar a capacidade de resolver problemas com as tecnologias indicadas.
 
 ## Detalhes
 É possível encontrar oque foi solicidato no [ARQUIVO DO TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf) disponível aqui no repositório.
 
 
 ## Tempo
-O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf) é dividido em 4 tarefas as quais foi definito data de entrega pelo próprio desafiado que concorre a vaga de DEV junior. Ficou definido um desafio por fim de semana (tempo que o desafiado tem a disposição) totalizando 4 semanas e finalizando no dia 06/06/2022
+O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf) é dividido em 4 tarefas as quais foi definito data de entrega pelo próprio desafiado que concorre a vaga de DEV junior. Ficou definido um desafio por fim de semana (tempo que o desafiado tem a disposição) totalizando 4 semanas e finalizando no dia 06/06/2022.  
+- Foi possível terminar antecipadamente :)
+
 
 ## Processo
 1- Subi os arquivos no github  
@@ -34,6 +36,8 @@ Formspree](https://formspree.io/), com os devidos ajustes foi possível enviar p
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
 - No [Google cloud](https://cloud.google.com/) criei um perfil e ativei o serviço de api mais adequada, li um pouco da documentação e usei minhas chaves de autenticação.
 - A implementação está correta e funcionando embora algumas cidades menores retornem imagem turisticas da cidade e não da bandeira (mesmo passando uma string BANDEIRA ou FLAG antes do nome da cidade). 
+- Após inserir uma linguagem PT-br os resultados melhoraram mas ainda retorna divergências.
+- A integração com a [API de localização por IP](http://ip-api.com) ficou totalmente funcional
 
 ### 4. Tarefa: tela do aplicativo
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
@@ -43,4 +47,6 @@ Formspree](https://formspree.io/), com os devidos ajustes foi possível enviar p
 ## Autor
 Nome: [Marcos Lourenço](https://www.linkedin.com/in/skymarkos7/)    
 Contato: [82-996909200](https://api.whatsapp.com/send?phone=5582996909200&text=oi%20Marcos%20te%20achei%20pelo%20git%20hub%20no%20projeto%20PHP%20junior)
+
+
 
