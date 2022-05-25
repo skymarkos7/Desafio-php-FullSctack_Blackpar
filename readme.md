@@ -14,8 +14,9 @@ O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 1- Subi os arquivos no github  
 2- Criei uma nova branch para desenvolvimento  
 3- Emergindo as branch's sempre que necessário  
-4- Todas as novas modificaçaões são feitas na branch de desenvolvimento.
-5- Descrevi todo o processo de desenvolvimento no arquivo readme.md para melhor acompanhamento
+4- Todas as novas modificaçaões são feitas na branch de desenvolvimento.  
+5- Descrevi todo o processo de desenvolvimento no arquivo readme.md para melhor acompanhamento  
+6- [PRINT](sd) da linda do tempo das modificações no GIT.
 
 ### 1. Tarefa: formulário de contato  
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)

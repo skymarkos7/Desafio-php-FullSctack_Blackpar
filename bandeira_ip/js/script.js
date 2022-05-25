@@ -1,6 +1,7 @@
 function searchData(){
 
     var ip = $("#ip").val();
+    console.log(ip);
 
     $.ajax({
         url: `http://ip-api.com/json/${ip}`, // ação do chamda do formulário
