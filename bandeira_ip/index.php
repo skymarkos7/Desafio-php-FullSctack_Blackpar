@@ -31,7 +31,7 @@
                     <div><label for="ip">IP:</label>	 <input type="text" name="ip" id="ip" class="ip padL" value=""/></div>
                     
                     <div class="txalc">
-                        <input type="button" name="consultar" class="consultar" id="consultar" value="Consultar" onclick="searchData(this.value)"/>                 
+                        <input type="button" name="consultar" class="consultar" id="consultar" value="Consultar" onclick="searchData()"/>   <!-- this.value -->          
                     </div>            
              </form>
                 

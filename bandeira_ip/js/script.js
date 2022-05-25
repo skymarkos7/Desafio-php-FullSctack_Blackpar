@@ -1,7 +1,6 @@
 function searchData(){
 
     var ip = $("#ip").val();
-    console.log(ip);
 
     $.ajax({
         url: `http://ip-api.com/json/${ip}`, // ação do chamda do formulário
@@ -10,11 +9,10 @@ function searchData(){
         cache: false,
         contentType: false,
         success: function( data ) { // caso seja sucesso 
-            //console.log(data);
+            // console.log(data);
             let city = data.city;
-            let region = data.region;
             let nameRegion = data.region;
-            console.log(region);
+           // console.log(nameRegion);
 
             document.querySelector("#region").innerText = city;
             document.querySelector("#nameRegion").innerText = nameRegion;
@@ -31,28 +29,29 @@ function searchData(){
 
                     if(dataGoogle.itemListElement[0].result.image != undefined){
                         let image = dataGoogle.itemListElement[0].result.image.contentUrl;
-                        flag = document.querySelector("#flag").src = image;
+                        document.querySelector("#flag").src = image;
+
                     }else{
                         alert("Nenhuma imagem correspondente encontrata!");
                     }
-                    console.log(dataGoogle);
-                    console.log(dataGoogle.itemListElement[0].result.image.contentUrl);
+                   // console.log(dataGoogle);
+                   // console.log(dataGoogle.itemListElement[0].result.image.contentUrl);
                     
         
                     //alert('Obrigado por seu comentário!');
                     //document.location.reload(true);
                 },
                 error: function (request, status, error) { // em caso de erros 
-                    //alert(request.responseText);
+                    alert("Nenhuma imagem correspondente encontrata!");
                 }
           
               });
 
-            //alert('Obrigado por seu comentário!');
+           // alert('Obrigado por seu comentário!');
             //document.location.reload(true);
         },
         error: function (request, status, error) { // em caso de erros 
-            //alert(request.responseText);
+            alert("Ip incorrerto");
         }
   
       });
