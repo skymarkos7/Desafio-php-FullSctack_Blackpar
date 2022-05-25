@@ -43,6 +43,7 @@ FORMSPREE](https://formspree.io/), com os devidos ajustes foi possível enviar p
 ### 4. Tarefa: tela do aplicativo
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf).
 - Tive dificuldade para encontrar um programa que permitisse extrair as imagens e icones de forma fácil, então algumas imagens e icones foram recortadas da imagem psd para serem utilizadas.
+- Uma captura do resultado pode ser encontrada em [aqui](https://api.lourencoautopecas.com.br/captura2.png) para ter uma prévia.
 
 
 ## Autor
