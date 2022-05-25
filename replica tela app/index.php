@@ -31,21 +31,21 @@
 
     <div class="c_opcoes">
 
-        <div class="circulos">
+    <a href="#"><div class="circulos">
             <img src="imagens/1.jpg">
             <p>Consultas</p>
-        </div>
+        </div></a>
 
-        <div class="circulos">
-            <img src="imagens/2.jpg">
+        <a href="#"><div class="circulos">
+            <img href="#" src="imagens/2.jpg">
             <p>Exames</p>
-        </div>
+        </div></a>
 
-        <div class="circulos">
+        <a href="#"> <div class="circulos">
             <img src="imagens/4.jpg">
             <p>Medicamentos</p>
 
-        </div>
+        </div></a>
     </div>
 
     <div class="painel">
@@ -65,60 +65,60 @@
         <h4>Beneficios</h4>
 
         <div class="b_qd">
-            <div class="b_circle">
+        <a href="#"><div class="b_circle">
                 <img src="imagens/aresidencial.jpg">
                 <p>Assistencia residencial</p>
-            </div>
+            </div></a>
 
-            <div class="b_circle">
+            <a href="#"><div class="b_circle">
                 <img src="imagens/cupons.jpg">
 
                 <p><br>cupons</p>
-            </div>
+            </div></a>
         </div>
 
         <div class="b_qd">
 
-            <div class="b_circle">
+        <a href="#"><div class="b_circle">
                 <img src="imagens/coracao.jpg">
                 <p>Seguro de Vida</p>
-            </div>
+            </div></a>
 
-            <div class="b_circle">
+            <a href="#"><div class="b_circle">
                 <img src="imagens/restaurante.jpg">
                 <p><br>Restaurantes</p>
-            </div>
+            </div></a>
         </div>
 
         <div class="b_qd">
-            <div class="b_circle">
+        <a href="#"><div class="b_circle">
                 <img src="imagens/cartao.jpg">
                 <p><br>Cartao internacional</p>
             </div>
 
-            <div class="b_circle">
+            <a href="#"><div class="b_circle">
                 <img src="imagens/celular.jpg">
                 <p>Conta digital</p>
 
-            </div>
+            </div></a>
         </div>
 
         <div class="b_qd">
-            <div class="b_circle">
+        <a href="#"><div class="b_circle">
                 <img src="imagens/sorteios.jpg">
                 <p>Sorteio de premios</p>
             </div>
 
-            <div class="b_circle">
+            <a href="#"><div class="b_circle">
                 <img src="imagens/funeral.jpg">
                 <p>Auxilio funeral</p>
-            </div>
+            </div></a>
         </div>
     </div>
 
     <div class="requisitados">
         <h4>Os mais requisitados</h4>
-        <h5>Ver todos</h5>
+        <a href="#"><h5>Ver todos</h5></a>
 
         <div class="p_1">
             <img src="imagens/parte.jpg">
@@ -182,14 +182,14 @@
                <img src="imagens/carlos.jpg">
                <article>Dr. Carlos da Silva</article>
                <p>Psicologo - 0.8 km de distancia</p>
-               <img class="aval" src="imagens/avaliacao.jpg">
+               <a href="#"><img class="aval" src="imagens/avaliacao.jpg"></a>
             </div>
 
             <div  class="qd_dt">
             <img src="imagens/carlos.jpg">
                <article>Dr. Carlos da Silva</article>
                <p>Psicologo - 0.8 km de distancia</p>
-               <img class="aval" src="imagens/avaliacao.jpg">
+               <a href="#"><img class="aval" src="imagens/avaliacao.jpg"></a>
             </div>
 
 

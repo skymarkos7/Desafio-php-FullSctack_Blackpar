@@ -16,13 +16,13 @@ O [TESTE](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 3- Emergindo as branch's sempre que necessário  
 4- Todas as novas modificaçaões são feitas na branch de desenvolvimento.  
 5- Descrevi todo o processo de desenvolvimento no arquivo readme.md para melhor acompanhamento  
-6- [PRINT](sd) da linda do tempo das modificações no GIT.
+6- [PRINT da linda do tempo](https://api.lourencoautopecas.com.br/captura.png)  das modificações no GIT.
 
 ### 1. Tarefa: formulário de contato  
 - Os requisitos  dessa tarefa estão disponíveis [aqui](https://github.com/skymarkos7/teste_junor_php/blob/master/LEIA-ME.pdf)
 - Foi adicionado REQUERE nos campos HTML para especificar a obrigatoriedade e feito validação também no javaScript para garantir o preenchimento dos campos obrigatórios e usando o focus no campo pendente.
 - Utilizei um serviço externo para o envio do email chamado [
-Formspree](https://formspree.io/), com os devidos ajustes foi possível enviar por ajax e sem sair da página um email com as informações solicitadas. Obs: o plano gratuito limita 100 emails por mÊs e gastei 55 durante o desenvolvimento ;)
+FORMSPREE](https://formspree.io/), com os devidos ajustes foi possível enviar por ajax e sem sair da página um email com as informações solicitadas. Obs: o plano gratuito limita 100 emails por mÊs e gastei 55 durante o desenvolvimento ;)
 - Hospedei uma imagem com o [resultado](https://estoque.lourencoautopecas.com.br/Capturar.PNG), que pode ser conferido [aqui](https://estoque.lourencoautopecas.com.br/Capturar.PNG).
 
 ### 2. Tarefa: festa de fim de ano  
